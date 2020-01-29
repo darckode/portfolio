@@ -23,12 +23,12 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #2c98f0;
+  color: rgb(0,0,160);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #2c98f0;
+    color: rgb(0,0,160);
     outline: none;
     text-decoration: none !important; }
 
@@ -58,15 +58,15 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #2c98f0; }
+  background: rgb(0,0,160); }
 
 ::-moz-selection {
   color: #fff;
-  background: #2c98f0; }
+  background: rgb(0,0,160); }
 
 ::selection {
   color: #fff;
-  background: #2c98f0; }
+  background: rgb(0,0,160); }
 
 #azyz-page {
   width: 100%;
@@ -81,7 +81,7 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #f2f3f7;
+  background: rgba(189,186,177,0.5);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -106,7 +106,7 @@ figure {
   #azyz-aside .position {
     display: block;
     margin-bottom: 2em;
-    font-size: 12px;
+    font-size: 16px;
     text-transform: uppercase; }
   #azyz-aside #azyz-logo {
     text-align: right;
@@ -156,7 +156,7 @@ figure {
             bottom: 7px;
             left: 0;
             right: 0;
-            background-color: #2c98f0;
+            background-color: rgb(0,0,160);
             visibility: hidden;
             -webkit-transform: scaleX(0);
             -moz-transform: scaleX(0);
@@ -179,7 +179,7 @@ figure {
               -o-transform: scaleX(1);
               transform: scaleX(1); }
         #azyz-aside #azyz-main-menu ul li.active a {
-          color: #2c98f0; }
+          color: rgb(0,0,160); }
           #azyz-aside #azyz-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -191,7 +191,7 @@ figure {
     font-size: 15px;
     text-align: center;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 1);
     padding: 0 20px;
     width: 100%; }
     @media screen and (max-width: 768px) {
@@ -209,12 +209,12 @@ figure {
         display: inline;
         list-style: none; }
         #azyz-aside .azyz-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: rgba(0, 0, 160, 0.7);
           padding: 4px; }
           #azyz-aside .azyz-footer ul li a:hover, #azyz-aside .azyz-footer ul li a:active, #azyz-aside .azyz-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #2c98f0; }
+            color: rgb(141,85,36); }
 
 .container-wrap {
   max-width: 1170px;
@@ -274,7 +274,7 @@ figure {
           #azyz-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
-            border: 2px solid #2c98f0; }
+            border: 2px solid rgb(0,0,160); }
     #azyz-hero .flexslider .flex-direction-nav {
       display: none; }
     #azyz-hero .flexslider .slider-text {
@@ -462,7 +462,7 @@ body.offcanvas {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Quicksand", Arial, sans-serif;
-  background-color: #2c98f0;
+  background-color: rgb(0,0,160);
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -546,7 +546,7 @@ body.offcanvas {
   display: block;
   width: 40px;
   height: 40px;
-  background: #2c98f0;
+  background: rgb(0,0,160);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -622,13 +622,13 @@ body.offcanvas {
   -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  border-bottom: 2px solid #2c98f0; }
+  border-bottom: 2px solid rgb(0,0,160); }
   .services .icon2 {
     display: block;
     margin-bottom: 20px; }
     .services .icon2 i {
       font-size: 30px;
-      color: #2c98f0; }
+      color: rgb(0,0,160); }
   .services h3 {
     font-family: "Quicksand", Arial, sans-serif;
     font-size: 16px;
@@ -666,7 +666,7 @@ body.offcanvas {
     height: 50px;
     display: table;
     margin: 0 auto;
-    background: #2c98f0; }
+    background: rgb(0,0,160); }
     .services .icon:before, .services .icon:after {
       position: absolute;
       left: 0;
@@ -678,14 +678,14 @@ body.offcanvas {
       height: 0;
       border-style: solid;
       border-width: 0 50px 30px 50px;
-      border-color: transparent transparent #2c98f0 transparent; }
+      border-color: transparent transparent rgb(0,0,160) transparent; }
     .services .icon:after {
       bottom: -30px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 30px 50px 0 50px;
-      border-color: #2c98f0 transparent transparent transparent; }
+      border-color: rgb(0,0,160) transparent transparent transparent; }
     .services .icon i {
       font-size: 30px;
       color: #fff;
@@ -742,7 +742,7 @@ body.offcanvas {
   overflow: visible; }
 
 .progress-bar {
-  background: #2c98f0;
+  background: rgb(0,0,160);
   -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 12px;
@@ -763,7 +763,7 @@ body.offcanvas {
     width: 10px;
     height: 10px;
     content: '';
-    background: #2c98f0;
+    background: rgb(0,0,160);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -773,11 +773,11 @@ body.offcanvas {
     top: -22px;
     right: 0; }
   .progress-bar.color-1 {
-    background: #2c98f0; }
+    background: rgb(0,0,160); }
     .progress-bar.color-1:after {
-      background: #2c98f0; }
+      background: rgb(0,0,160); }
     .progress-bar.color-1 span {
-      color: #2c98f0; }
+      color: rgb(0,0,160); }
   .progress-bar.color-2 {
     background: #ec5453; }
     .progress-bar.color-2:after {
@@ -831,7 +831,7 @@ body.offcanvas {
     .azyz-feature .azyz-icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #2c98f0;
+      color: rgb(0,0,160);
       font-size: 60px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
@@ -853,7 +853,7 @@ body.offcanvas {
   .azyz-feature.azyz-feature-sm .azyz-text {
     margin-top: 30px; }
   .azyz-feature.azyz-feature-sm .azyz-icon i {
-    color: #2c98f0;
+    color: rgb(0,0,160);
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .azyz-feature.azyz-feature-sm .azyz-icon i {
@@ -925,7 +925,7 @@ body.offcanvas {
   .work-menu span a {
     color: #000; }
     .work-menu span a.active {
-      color: #2c98f0; }
+      color: rgb(0,0,160); }
 
 .project {
   background-size: cover;
@@ -942,7 +942,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background: rgb(0,0,160);
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -1056,7 +1056,7 @@ body.offcanvas {
       width: 100px;
       height: 100px;
       font-size: 50px;
-      color: #2c98f0;
+      color: rgb(0,0,160);
       background: #fff;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -1108,11 +1108,11 @@ body.offcanvas {
         .azyz-social li a {
           padding: 10px 8px; } }
       .azyz-social li a:hover {
-        color: #2c98f0; }
+        color: rgb(0,0,160); }
       .azyz-social li a:hover, .azyz-social li a:active, .azyz-social li a:focus {
         outline: none;
         text-decoration: none;
-        color: #2c98f0; }
+        color: rgb(0,0,160); }
 
 #map {
   width: 100%;
@@ -1144,19 +1144,19 @@ body.offcanvas {
         -ms-border-radius: 2px;
         border-radius: 2px; }
       .pagination li a:hover, .pagination li a:focus {
-        background: #2c98f0;
+        background: rgb(0,0,160);
         color: #fff;
-        border: 1px solid #2c98f0; }
+        border: 1px solid rgb(0,0,160); }
       @media screen and (max-width: 768px) {
         .pagination li a {
           padding: 7px 15px; } }
     .pagination li.active a {
-      background: #2c98f0;
-      border: 1px solid #2c98f0 !important; }
+      background: rgb(0,0,160);
+      border: 1px solid rgb(0,0,160) !important; }
       .pagination li.active a:hover, .pagination li.active a:focus {
-        background: #2c98f0;
+        background: rgb(0,0,160);
         color: #fff;
-        border: 1px solid #2c98f0 !important; }
+        border: 1px solid rgb(0,0,160) !important; }
 
 .btn {
   margin-right: 4px;
@@ -1186,18 +1186,18 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #2c98f0;
+  background: rgb(0,0,160);
   color: #fff;
-  border: 2px solid #2c98f0; }
+  border: 2px solid rgb(0,0,160); }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #44a4f2 !important;
     border-color: #44a4f2 !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #2c98f0;
-    border: 2px solid #2c98f0; }
+    color: rgb(0,0,160);
+    border: 2px solid rgb(0,0,160); }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #2c98f0;
+      background: rgb(0,0,160);
       color: #fff; }
 
 .btn-success {
