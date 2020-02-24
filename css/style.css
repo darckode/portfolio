@@ -295,7 +295,7 @@ figure {
           margin: 0;
           padding: 0;
           color: antiquewhite;
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+          font-family: "Quicksand", Arial, sans-serif; }
         #azyz-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 60px;
@@ -309,7 +309,7 @@ figure {
           line-height: 1.5;
           margin-bottom: 30px;
           font-weight: 400;
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+          font-family: "Quicksand", Arial, sans-serif;}
           #azyz-hero .flexslider .slider-text > .slider-text-inner h2 a {
             color: rgba(44, 152, 240, 0.8);
             border-bottom: 1px solid rgba(44, 152, 240, 0.7); }
