@@ -95,8 +95,8 @@ figure {
       transform: translateX(-300px);
       padding-top: 4em; } }
   #azyz-aside .author-img {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     margin: 0 auto;
     margin-bottom: 30px;
     -webkit-border-radius: 50%;
@@ -110,8 +110,8 @@ figure {
     text-transform: uppercase; }
   #azyz-aside #azyz-logo {
     text-align: right;
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: 600;
+    font-size: 36px;
     margin-bottom: .5em;
     display: block;
     width: 100%; }
