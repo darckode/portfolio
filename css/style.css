@@ -305,10 +305,10 @@ figure {
             #azyz-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 28px; } }
         #azyz-hero .flexslider .slider-text > .slider-text-inner h2 {
-          font-size: 30px;
+          font-size: 24px;
           line-height: 1.5;
           margin-bottom: 30px;
-          font-weight: 400;
+          font-weight: 300;
           font-family: "Quicksand", Arial, sans-serif;}
           #azyz-hero .flexslider .slider-text > .slider-text-inner h2 a {
             color: rgba(44, 152, 240, 0.8);
